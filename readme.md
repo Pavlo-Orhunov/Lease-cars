@@ -3,14 +3,18 @@
 ## Layout features:
 
 - hamburger menu in header
-- Decreasing header when scrolling
+- decreasing header when scrolling
 - fullscreen block
 - slider
 - spoilers
 - tabs
-- contact form
+- contacts form
 
-`Link to video`
+
+`Link to the web-page`
+
+
+`Link to video tutorial`
 https://youtu.be/AvMusILfIdQ
 
 [![Multi-page site layout, html/css/js detailed explanation](https://img.youtube.com/vi/AvMusILfIdQ/hqdefault.jpg "Multi-page site layout, html/css/js detailed explanation")](https://youtu.be/AvMusILfIdQ)
