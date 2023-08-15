@@ -10,9 +10,8 @@
 - tabs
 - contacts form
 
-
 `Link to the web-page`
-
+https://pavlo-orhunov.github.io/Lease-cars/
 
 `Link to video tutorial`
 https://youtu.be/AvMusILfIdQ
