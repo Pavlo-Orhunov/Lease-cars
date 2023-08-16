@@ -937,7 +937,7 @@ body {
 }
 @media (max-width: 767.98px) {
   .hero__slide {
-    height: 95vh;
+    height: 93vh;
   }
 }
 .swiper-wrapper {
