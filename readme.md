@@ -2,6 +2,8 @@
 
 ## Layout features:
 
+- HTML using BEM methodology
+- fully responsive layout
 - hamburger menu in header
 - decreasing header when scrolling
 - fullscreen block
