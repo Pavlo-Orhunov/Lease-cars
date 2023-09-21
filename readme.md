@@ -2,13 +2,17 @@
 
 ## Layout features:
 
+- layout made on Figma
 - HTML using BEM methodology
-- fully responsive layout
-- hamburger menu in header
+- fully responsive layout up to 320px width
+- no use of any preprocessors and assemblers (manual work)
+- almost pixel perfect on the PC version :)
+- hamburger menu on mobile devices
 - decreasing header when scrolling
 - fullscreen block
-- slider
-- spoilers
+- custom numbered list
+- Swiper slider
+- accordion spoiler
 - tabs
 - contacts form
 
