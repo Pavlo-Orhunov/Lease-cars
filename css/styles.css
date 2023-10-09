@@ -184,40 +184,37 @@ h6 {
 /*---------- Titles ----------*/
 .title-h1 {
   text-align: center;
-  font-size: calc(36px + (96 - 36) * ((100vw - 320px) / (1200 - 320)));
+  font-size: clamp(
+    36px,
+    calc(36px + (96 - 36) * ((100vw - 320px) / (1200 - 320))),
+    96px
+  );
   font-weight: 700;
   line-height: 1.2;
   color: var(--white, #fff);
 }
-@media (min-width: 1200px) {
-  .title-h1 {
-    font-size: 96px;
-  }
-}
 
 .title-h2 {
   text-align: center;
-  font-size: calc(24px + (48 - 24) * ((100vw - 320px) / (1200 - 320)));
+  font-size: clamp(
+    24px,
+    calc(24px + (48 - 24) * ((100vw - 320px) / (1200 - 320))),
+    48px
+  );
   font-weight: 700;
   line-height: 1.2;
   color: var(--black, #151515);
-}
-@media (min-width: 1200px) {
-  .title-h2 {
-    font-size: 48px;
-  }
 }
 
 .title-h3 {
-  color: var(--black, #151515);
-  font-size: calc(18px + (24 - 18) * ((100vw - 320px) / (1200 - 320)));
+  font-size: clamp(
+    18px,
+    calc(18px + (24 - 18) * ((100vw - 320px) / (1200 - 320))),
+    24px
+  );
   font-weight: 700;
   line-height: 1.2;
-}
-@media (min-width: 1200px) {
-  .title-h3 {
-    font-size: 24px;
-  }
+  color: var(--black, #151515);
 }
 
 /*======= Header styles =======*/
