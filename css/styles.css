@@ -855,11 +855,6 @@ body {
   color: var(--black, #151515);
   font-size: 16px;
 }
-@media (max-width: 767px) {
-  body {
-    scroll-padding-top: 2rem; /* Измените значение по своему усмотрению */
-  }
-}
 /* Blocks body scrolling */
 .body--lock {
   overflow: hidden;
@@ -893,7 +888,6 @@ body {
 
 /*------------ hero ------------*/
 .hero {
-  background-color: var(--grey, #e8e8e8);
 }
 .hero__container {
 }
@@ -990,7 +984,7 @@ body {
     margin-left: inherit;
   }
 }
-@media (max-width: 767.98px) {
+@media (max-width: 767.98px), (max-height: 600px) {
   .hero__button {
     max-width: 223px;
     min-height: 47px;
