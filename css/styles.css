@@ -1040,8 +1040,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 150px;
-  height: 150px;
+  width: clamp(
+    100px,
+    calc(100px + (150 - 100) * ((100vw - 320px) / (1200 - 320))),
+    150px
+  );
+  height: clamp(
+    100px,
+    calc(100px + (150 - 100) * ((100vw - 320px) / (1200 - 320))),
+    150px
+  );
   border-radius: 50%;
   border: 1px solid var(--blue);
 }
@@ -1080,9 +1088,8 @@ body {
     margin-top: 25px;
     gap: 12px;
   }
-  .item-why__image {
-    width: 125px;
-    height: 125px;
+  .item-why__text {
+    text-align: justify;
   }
 }
 
