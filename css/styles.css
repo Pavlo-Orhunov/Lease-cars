@@ -921,7 +921,7 @@ body {
 }
 .hero__slide {
   position: relative;
-  height: 100vh;
+  height: 100dvh;
 }
 .swiper-wrapper {
 }
