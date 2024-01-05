@@ -1,4 +1,4 @@
-# Made according to the video of @vadymprokopchuk. Layout of a multi-page site. HTML CSS JS FIGMA"<br>
+# Made according to the video of @vadymprokopchuk. Layout of a multi-page site. HTML CSS JS FIGMA<br>
 
 ## Layout features:
 
